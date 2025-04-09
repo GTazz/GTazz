@@ -1,14 +1,14 @@
-### README language options:
+### README opções de linguagem:
 
-* en (Current)
-* [pt-BR](./i18n/README-pt-BR.md)
+* [en](../README.md)
+* pt-BR (Current)
 
 <br>
 <br>
 
-<h1 align="center">Hi, I´m Gabriel, but you can call me Tazz!</h1>
+<h1 align="center">Olá, sou o Gabriel, mas pode me chamar de Tazz!</h1>
 
-<h3 align="center">Back-End Developer | NodeJS, Python, C++, VBA | Mechatronic Engineer | Arduino</h3>
+<h3 align="center">Desenvolvedor Back-End | NodeJS, Python, C++, VBA | Engenheiro Mecatrônico | Arduino</h3>
 
 <p align="center">
 <a href="https://www.linkedin.com/in/gabriel-tazz" target="_blank">
@@ -24,15 +24,15 @@
 
 ---
 
-### About me
+### Sobre mim
 
-- 🎓 **Graduation:** Mechatronic Engineer
-- 💻 **Specialization:** Back-End Developer experienced in NodeJS, Python, C++ e VBA
-- 🌍 **Localization:** Arujá, São Paulo, Brasil
+- 🎓 **Formação:** Engenheiro Mecatrônico
+- 💻 **Especialização:** Desenvolvimento Back-End com experiência em NodeJS, Python, C++ e VBA
+- 🌍 **Localização:** Arujá, São Paulo, Brasil
 
 ---
 
-### Technologies and Tools
+### Tecnologias e Ferramentas
 
 <p align="center">
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
@@ -46,7 +46,7 @@
 
 ---
 
-### GitHub Statistics
+### Estatísticas do GitHub
 
 <br>
 
