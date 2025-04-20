@@ -1,10 +1,12 @@
-### README opções de linguagem:
-
+<details>
+<summary>🌎 Linguagem</summary>
+<br>
+    
 * [en](../README.md)
 * pt-BR (Current)
-
-<br>
-<br>
+  
+</details>
+  
 
 <h1 align="center">Olá, sou o Gabriel, mas pode me chamar de Tazz!</h1>
 
