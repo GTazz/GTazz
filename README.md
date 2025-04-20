@@ -1,10 +1,10 @@
-### README language options:
+<details>
+<summary>Language:</summary>
 
 * en (Current)
 * [pt-BR](./i18n/README-pt-BR.md)
-
-<br>
-<br>
+  
+</details>
 
 <h1 align="center">Hi, I´m Gabriel, but you can call me Tazz!</h1>
 
