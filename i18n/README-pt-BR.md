@@ -4,6 +4,7 @@
     
 * [en](../README.md)
 * pt-BR (Current)
+---
   
 </details>
   
