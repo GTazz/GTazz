@@ -4,7 +4,8 @@
   
 * en (Current)
 * [pt-BR](./i18n/README-pt-BR.md)
-  
+---
+
 </details>
 
 <h1 align="center">Hi, I´m Gabriel, but you can call me Tazz!</h1>
