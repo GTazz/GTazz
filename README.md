@@ -30,7 +30,7 @@
 
 - 🎓 **Graduation:** Computer Scientist | Mechatronic Engineer
 - 💻 **Specialization:** Back-End Developer experienced in NodeJS, Python, C++ e VBA
-- 🌍 **Localization:** Arujá, São Paulo, Brasil
+- 🌍 **Location:** Arujá, São Paulo, Brasil
 
 ---
 
