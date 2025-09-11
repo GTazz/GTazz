@@ -1,12 +1,6 @@
-<details>
-<summary>🌎 Language</summary>
-<br>
-  
-* en (Current)
-* [pt-BR](./i18n/README-pt-BR.md)
----
+**🌎 Languages:** English (Current) | [Português](./i18n/README-pt-BR.md)
 
-</details>
+---
 
 ## My Projects
 
