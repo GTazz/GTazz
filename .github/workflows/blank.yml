@@ -14,9 +14,6 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Install build dependencies for nokogiri
-        run: sudo apt-get update && sudo apt-get install -y build-essential libxml2-dev libxslt1-dev zlib1g-dev
-
       - uses: GTazz/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
