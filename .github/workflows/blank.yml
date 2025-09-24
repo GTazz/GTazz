@@ -21,9 +21,15 @@ jobs:
           base: ""
           filename: metrics.plugin.languages.svg
           plugin_languages: yes
-          plugin_languages_ignored: >-
-            portugol
-          plugin_languages_limit: 20
+          plugin_languages_sections: most-used
+          plugin_languages_limit: 0
+          plugin_languages_colors: rainbow
+          plugin_languages_ignored: portugol
+          plugin_languages_skipped: |
+            GTazz/metrics
+            GTazz/estudo-booleano
+            GTazz/Atividade-turismo-SP
+            GTazz/estudo-de-compressao
         
       - name: Isometric calendar
         uses: GTazz/metrics@master
@@ -32,7 +38,7 @@ jobs:
           base: ""
           filename: metrics.plugin.isocalendar.svg
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          plugin_isocalendar_duration: full-year
         
       - name: General metrics
         uses: GTazz/metrics@master
@@ -40,4 +46,3 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
           filename: metrics.base.svg
-          
