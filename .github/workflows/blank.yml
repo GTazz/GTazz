@@ -14,22 +14,6 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Most used languages
-        uses: GTazz/metrics@master
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          filename: metrics.plugin.languages.svg
-          plugin_languages: yes
-          plugin_languages_limit: 20
-          plugin_languages_colors: rainbow
-          plugin_languages_ignored: >-
-            portugol
-          plugin_languages_skipped: |
-            GTazz/metrics
-            GTazz/estudo-booleano
-            GTazz/Atividade-turismo-SP
-            GTazz/estudo-de-compressao
         
       - name: Isometric calendar
         uses: GTazz/metrics@master
@@ -46,3 +30,20 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
           filename: metrics.base.svg
+
+      - name: Most used languages
+        uses: GTazz/metrics@master
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          filename: metrics.plugin.languages.svg
+          plugin_languages: yes
+          plugin_languages_limit: 20
+          plugin_languages_colors: rainbow
+          plugin_languages_ignored: >-
+            portugol
+          plugin_languages_skipped: |
+            GTazz/metrics
+            GTazz/estudo-booleano
+            GTazz/Atividade-turismo-SP
+            GTazz/estudo-de-compressao
