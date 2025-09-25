@@ -2,9 +2,8 @@ name: Metrics
 on:
   # Schedule daily updates
   schedule: [{cron: "0 0 * * *"}]
-  # (optional) Run workflow manually on any branch
+  # (optional) Run workflow manually
   workflow_dispatch:
-    inputs: {}
   # (optional) Run workflow when pushing on master/main
   push:
     branches: 
