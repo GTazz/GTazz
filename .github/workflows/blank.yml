@@ -48,6 +48,4 @@ jobs:
           plugin_languages_ignored: >-
             portugol
           repositories_skipped: >-
-            GTazz/estudo-booleano
-            GTazz/Atividade-turismo-SP
-            GTazz/estudo-de-compressao
+            estudo-booleano, Atividade-turismo-SP, estudo-de-compressao
