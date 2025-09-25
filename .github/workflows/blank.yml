@@ -48,7 +48,7 @@ jobs:
           plugin_languages_ignored: >-
             portugol
           plugin_languages_skipped: >-
-            GTazz/metrics
-            GTazz/estudo-booleano
-            GTazz/Atividade-turismo-SP
-            GTazz/estudo-de-compressao
+            metrics
+            estudo-booleano
+            Atividade-turismo-SP
+            estudo-de-compressao
