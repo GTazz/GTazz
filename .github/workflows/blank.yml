@@ -46,6 +46,6 @@ jobs:
           plugin_languages_details: >-
             bytes-size, percentage
           plugin_languages_ignored: >-
-            portugol
+            portugol, html, css
           repositories_skipped: >-
             estudo-booleano, Atividade-turismo-SP, estudo-de-compressao
