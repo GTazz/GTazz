@@ -18,29 +18,14 @@ jobs:
     permissions:
       contents: write
     steps:
-        
-      - name: Isometric calendar
-        uses: GTazz/metrics@master
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          filename: metrics.plugin.isocalendar.svg
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-        
       - name: General metrics
         uses: GTazz/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          base: header, activity, community, repositories, metadata
           filename: metrics.base.svg
-
-      - name: Most used languages
-        uses: GTazz/metrics@master
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          filename: metrics.plugin.languages.svg
+          base: header, activity, community, repositories, metadata
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
           plugin_languages: yes
           plugin_languages_limit: 20
           plugin_languages_details: >-
