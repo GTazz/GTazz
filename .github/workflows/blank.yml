@@ -9,8 +9,7 @@ on:
     branches: 
       - master 
       - main
-      - rework
-      
+      - rework   
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -37,7 +36,7 @@ jobs:
             estudo-booleano, Atividade-turismo-SP, estudo-de-compressao
           config_order: >-
             base.header, isocalendar, base.activity+community, languages
-          config_padding: 0, 100 + 8%
+          config_padding: 0, 85
 
       - name: Main repos metrics
         uses: GTazz/metrics@master
@@ -51,4 +50,3 @@ jobs:
           plugin_repositories_order: featured
           plugin_repositories_featured: >-
             Job-Fit-Resume, GTazz-linktree, gzmoraes/Portifolio-AI, CS-Graduation
-          

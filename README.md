@@ -14,4 +14,4 @@
 
 ## My Projects
 
-
+<img src="metrics.projects.svg" alt="GitHub repo stats">
