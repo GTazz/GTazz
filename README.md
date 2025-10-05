@@ -14,4 +14,7 @@
 
 ## My Projects
 
-<img src="metrics.projects.svg" alt="GitHub repo stats">
+
+<a href="https://github.com/GTazz?tab=repositories&q=&type=&language=&sort=">
+    <img src="metrics.projects.svg" alt="GitHub repo stats">
+</a>

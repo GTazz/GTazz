@@ -36,7 +36,7 @@ jobs:
             estudo-booleano, Atividade-turismo-SP, estudo-de-compressao
           config_order: >-
             base.header, isocalendar, base.activity+community, languages
-          config_padding: 0, 85
+          config_padding: 0, 100
 
       - name: Main repos metrics
         uses: GTazz/metrics@master
