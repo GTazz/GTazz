@@ -10,25 +10,9 @@
 
 ## Stats
 
-<table>
-  <tbody>
-    <tr>
-      <td>
-        <img src="metrics.base.svg" alt="GitHub base stats">
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img src="metrics.plugin.isocalendar.svg" alt="GitHub contrib stats">
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img src="metrics.plugin.languages.svg" alt="GitHub languages stats">
-      </td>
-    </tr>
-  </tbody>
-</table>
+<img src="metrics.base.svg" alt="GitHub base stats">
+<img src="metrics.plugin.isocalendar.svg" alt="GitHub contrib stats">
+<img src="metrics.plugin.languages.svg" alt="GitHub languages stats">
 
 ## My Projects
 
