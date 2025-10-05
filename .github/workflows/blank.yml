@@ -35,4 +35,4 @@ jobs:
           repositories_skipped: >-
             estudo-booleano, Atividade-turismo-SP, estudo-de-compressao
           config_order: base.header, isocalendar, base.activity+community, languages
-          config_padding: 0, 10 + 8%
+          config_padding: 0, 45 + 8%
