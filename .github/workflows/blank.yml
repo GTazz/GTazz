@@ -34,3 +34,4 @@ jobs:
             portugol, html, css
           repositories_skipped: >-
             estudo-booleano, Atividade-turismo-SP, estudo-de-compressao
+          config_order: base.header, isocalendar, languages
