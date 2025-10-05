@@ -11,15 +11,15 @@
 ## Metrics
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
-  <img src="metrics.base.svg" alt="GitHub base stats" style="flex: 1 1 340px; min-width: 340px; max-width: 49%;">
-  <img src="metrics.base.svg" alt="GitHub base stats" style="flex: 1 1 340px; min-width: 340px; max-width: 49%;">
+  <img src="metrics.base.svg" alt="GitHub base stats" style="flex: 1 1 300px; min-width: 300px; max-width: 49%;">
+  <img src="metrics.base.svg" alt="GitHub base stats" style="flex: 1 1 300px; min-width: 300px; max-width: 49%;">
 </div>
 
 
 ## My Projects
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
-  <a href="https://github.com/GTazz?tab=repositories&q=&type=&language=&sort=" style="flex: 1 1 340px; min-width: 340px; max-width: 49%;">
+  <a href="https://github.com/GTazz?tab=repositories&q=&type=&language=&sort=" style="flex: 1 1 300px; min-width: 300px; max-width: 49%;">
     <img src="metrics.projects.svg" alt="GitHub repo stats">
   </a>
 </div>
