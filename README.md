@@ -16,8 +16,8 @@
 </picture>
 
 <picture>
-  <source media="(min-width: 680px)" srcset="metrics.base.svg" width=49% alt="GitHub base stats" type="image/svg+xml">
-  <img src="metrics.base.svg" width=100% alt="GitHub base stats" type="image/svg+xml">
+  <source media="(min-width: 680px)" srcset="metrics.languages.svg" width=49% alt="GitHub languages stats" type="image/svg+xml">
+  <img src="metrics.languages.svg" width=100% alt="GitHub languages stats" type="image/svg+xml">
 </picture>
 
 ## My Projects
