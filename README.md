@@ -1,13 +1,3 @@
-<details>
-<summary>🌎 Language</summary>
-<br>
-  
-* en (Current)
-* [pt-BR](./i18n/README-pt-BR.md)
----
-
-</details>
-
 ## Metrics
 
 <picture>
@@ -19,7 +9,6 @@
   <source media="(max-width: 730px)" srcset="metrics.languages.svg" alt="GitHub languages stats" type="image/svg+xml" width=100%>
   <img src="metrics.languages.svg" alt="GitHub languages stats" type="image/svg+xml" align ="top" width=49%>
 </picture>
-
 
 ## My Projects
 
