@@ -10,16 +10,21 @@
 
 ## Metrics
 
-<div style="display: flex; flex-wrap: wrap; gap: 1rem;">
-  <img src="metrics.base.svg" alt="GitHub base stats" style="flex: 1 1 330px; min-width: 330px; width: 49%;">
-  <img src="metrics.base.svg" alt="GitHub base stats" style="flex: 1 1 330px; min-width: 330px; width: 49%;">
-</div>
+<picture>
+  <source media="(min-width: 680px)" srcset="metrics.base.svg" width=49% alt="GitHub base stats" type="image/svg+xml">
+  <img src="metrics.base.svg" width=100% alt="GitHub base stats" type="image/svg+xml">
+</picture>
 
+<picture>
+  <source media="(min-width: 680px)" srcset="metrics.base.svg" width=49% alt="GitHub base stats" type="image/svg+xml">
+  <img src="metrics.base.svg" width=100% alt="GitHub base stats" type="image/svg+xml">
+</picture>
 
 ## My Projects
 
-<div style="display: flex; flex-wrap: wrap; gap: 1rem;">
-  <a href="https://github.com/GTazz?tab=repositories&q=&type=&language=&sort=" style="flex: 1 1 330px; min-width: 330px; width: 49%;">
-    <img src="metrics.projects.svg" alt="GitHub repo stats">
-  </a>
-</div>
+<a href="https://github.com/GTazz?tab=repositories&q=&type=&language=&sort=">
+  <picture>
+    <source media="(min-width: 680px)" srcset="metrics.projects.svg" width=49% alt="GitHub repos" type="image/svg+xml">
+    <img src="metrics.projects.svg" width=100% alt="GitHub repos" type="image/svg+xml">
+  </picture>
+</a>
