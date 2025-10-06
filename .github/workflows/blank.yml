@@ -1,0 +1,60 @@
+name: Metrics
+on:
+  # Schedule daily updates
+  schedule: [{cron: "0 0 * * *"}]
+  # (optional) Run workflow manually
+  workflow_dispatch:
+  # (optional) Run workflow when pushing
+  push:
+    branches: 
+      - master 
+      - main
+      - rework   
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    environment: 
+      name: production
+    permissions:
+      contents: write
+    steps:
+      - name: General metrics
+        uses: GTazz/metrics@master
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.base.svg
+          base: header, activity, community
+          base_hireable: yes
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          config_order: >-
+            base.header, isocalendar, base.activity+community
+          config_padding: 0, 55
+      - name: Languages metrics
+        uses: GTazz/metrics@master
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.languages.svg
+          base: repositories
+          plugin_languages: yes
+          plugin_languages_limit: 20
+          plugin_languages_details: >-
+            bytes-size, percentage
+          plugin_languages_ignored: >-
+            portugol, html, css
+          config_order: >-
+            base.repositories, languages
+          config_padding: 0, 45
+
+      - name: Main repos metrics
+        uses: GTazz/metrics@master
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.projects.svg
+          base: ""
+          plugin_repositories: yes
+          plugin_repositories_affiliations: >-
+            owner, collaborator, organization_member
+          plugin_repositories_order: featured
+          plugin_repositories_featured: >-
+            Job-Fit-Resume, GTazz-linktree, gzmoraes/Portifolio-AI, CS-Graduation
