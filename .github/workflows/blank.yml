@@ -29,7 +29,7 @@ jobs:
           plugin_isocalendar_duration: half-year
           config_order: >-
             base.header, isocalendar, base.activity+community
-          config_padding: 0, 45
+          config_padding: 0, 55
       - name: Languages metrics
         uses: GTazz/metrics@master
         with:
