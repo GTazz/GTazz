@@ -1,12 +1,19 @@
 <h1>Welcome to my GitHub profile! 👍</h1>
 
-<h2>👨‍💻 About me</h2>
+<h2>👨🏻 About me</h2>
 
 Hi, my name is Gabriel and close friends call me Tazz.
 
 <h3>Professional Section</h3>
 
-placeholder
+<h4>📚 Education</h4>
+
+- Computer Science Bachelor's degree
+- Mechatronics Technician's degree
+  
+<h4>💼 Experience</h4>
+
+- placeholder
 
 <h3>Core Values</h3>
 
