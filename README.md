@@ -18,6 +18,8 @@ placeholder
 - LGBTQ+ member and supporter
   - For the freedom of identity in society and workspace
 
+- Loyalty for my family, friends and ideals 
+
 <h2>📊 Metrics</h2>
 
 <picture>
@@ -31,7 +33,7 @@ placeholder
 </picture>
 <h2>✨ Projects</h2>
 
-<table align="top">
+<table align="left">
   <thead></thead>
     <tr>
       <th>Project Name</th>
@@ -59,8 +61,5 @@ placeholder
 </table>
 
 <a href="https://github.com/GTazz?tab=repositories&q=&type=&language=&sort=">
-  <picture align ="top" >
-    <source media="(max-width: 730px)" srcset="metrics.projects.svg" alt="GitHub repos" type="image/svg+xml" width=100% >
-    <img src="metrics.projects.svg" alt="GitHub repos" type="image/svg+xml" width=49%>
-  </picture>
+  <img src="metrics.projects.svg" alt="GitHub repos" type="image/svg+xml" width="450px" align ="top">
 </a>
