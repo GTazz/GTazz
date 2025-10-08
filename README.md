@@ -61,5 +61,5 @@ placeholder
 </table>
 
 <a href="https://github.com/GTazz?tab=repositories&q=&type=&language=&sort=">
-  <img src="metrics.projects.svg" alt="GitHub repos" type="image/svg+xml" width="400px" align ="top">
+  <img src="metrics.projects.svg" alt="GitHub repos" type="image/svg+xml" width="350px" align ="top">
 </a>
