@@ -3,19 +3,15 @@
 <h2>👨🏻 About me</h2>
 
 Hi, my name is Gabriel and close friends call me Tazz.
+I'm a open source developer and computer scientist student.
+Check out my main projects: [Click me](#-projects)
 
-<h3>Professional Section</h3>
-
-<h4>📚 Education</h4>
+<h3>📚 Education</h3>
 
 - Computer Science Bachelor's degree
 - Mechatronics Technician's degree
-  
-<h4>💼 Experience</h4>
 
-- placeholder
-
-<h3>Core Values</h3>
+<h3>⚖️ Core Values</h3>
 
 - Open source community developer
   - I believe education and technology should be for everyone
@@ -25,7 +21,7 @@ Hi, my name is Gabriel and close friends call me Tazz.
 - LGBTQ+ member and supporter
   - For the freedom of identity in society and workspace
 
-- Loyalty for my family, friends and ideals 
+- Loyal for my family, friends and ideals 
 
 <h2>📊 Metrics</h2>
 
@@ -40,7 +36,7 @@ Hi, my name is Gabriel and close friends call me Tazz.
 </picture>
 <h2>✨ Projects</h2>
 
-<table align="left">
+<table>
   <thead></thead>
     <tr>
       <th>Project Name</th>
@@ -67,6 +63,8 @@ Hi, my name is Gabriel and close friends call me Tazz.
   </tbody>
 </table>
 
+<h3>Repositories</h3>
+
 <a href="https://github.com/GTazz?tab=repositories&q=&type=&language=&sort=">
-  <img src="metrics.projects.svg" alt="GitHub repos" type="image/svg+xml" width="350px" align ="top">
+  <img src="metrics.projects.svg" alt="GitHub repos" type="image/svg+xml" align ="top">
 </a>
