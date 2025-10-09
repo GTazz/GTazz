@@ -35,7 +35,7 @@ Check out my main projects: [Click me](#-projects)
   <img src="metrics.languages.svg" alt="GitHub languages stats" type="image/svg+xml" align ="top" width=49%>
 </picture>
 <h2>✨ Projects</h2>
-
+<!-- 
 <table>
   <thead></thead>
     <tr>
@@ -45,26 +45,21 @@ Check out my main projects: [Click me](#-projects)
   </thead>
   <tbody>
     <tr>
-      <td>AwesomeApp</td>
-      <td>A productivity tool for developers</td>
+      <td>
+        <a href="https://github.com/GTazz/Job-Fit-Resume?tab=readme-ov-file#job-fit-resume">
+          Job Fit Resume
+        </a>
+      </td>
+      <td>
+        ...
+      </td>
     </tr>
-    <tr>
-      <td>OpenEdu</td>
-      <td>Open source platform for online education</td>
-    </tr>
-    <tr>
-      <td>DevMetrics</td>
-      <td>Visualize and track your coding statistics</td>
-    </tr>
-    <tr>
-      <td>TazzBot</td>
-      <td>A helpful Discord bot for communities</td>
-    </tr>
+
   </tbody>
 </table>
 
-<h3>Repositories</h3>
+<h3>Repositories</h3> -->
 
 <a href="https://github.com/GTazz?tab=repositories&q=&type=&language=&sort=">
-  <img src="metrics.projects.svg" alt="GitHub repos" type="image/svg+xml" align ="top">
+  <img src="metrics.projects.svg" alt="GitHub repos" type="image/svg+xml">
 </a>
