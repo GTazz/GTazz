@@ -26,7 +26,7 @@ jobs:
           base: header, activity, community
           base_hireable: yes
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          plugin_isocalendar_duration: full-year
           config_order: >-
             base.header, isocalendar, base.activity+community
           config_padding: 0, 55
