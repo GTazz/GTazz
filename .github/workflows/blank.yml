@@ -33,8 +33,6 @@ jobs:
           config_order: >-
             base.header, isocalendar, base.activity+community, base.repositories
 
-          commits_authoring: GTazz, gabriel.oliveira.tazz@gmail.com
-
           config_padding: 0, 55
           # config_output: png
           # config_display: large
@@ -58,17 +56,17 @@ jobs:
           plugin_languages_ignored: >-
             portugol, html, css
 
-          commits_authoring: GTazz, gabriel.oliveira.tazz@gmail.com
+          commits_authoring: Gabriel Tazz, GTazz, gabriel.oliveira.tazz@gmail.com
 
           config_padding: 0, 45
           # config_output: png
           # config_display: large
 
-      - name: Main repos metrics
+      - name: Main repos metrics desktop
         uses: GTazz/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.projects.*
+          filename: metrics.projects.desktop.*
 
           base: ""
 
@@ -78,8 +76,23 @@ jobs:
           plugin_repositories_order: featured
           plugin_repositories_featured: >-
             Job-Fit-Resume, GTazz-linktree, gzmoraes/Portifolio-AI, CS-Graduation
-
-          commits_authoring: GTazz, gabriel.oliveira.tazz@gmail.com   
           
           # config_output: png
-          config_display: columns
+          config_display: large
+
+      - name: Main repos desktop
+        uses: GTazz/metrics@master
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.projects.mobile.*
+
+          base: ""
+
+          plugin_repositories: yes
+          plugin_repositories_affiliations: >-
+            owner, collaborator, organization_member
+          plugin_repositories_order: featured
+          plugin_repositories_featured: >-
+            Job-Fit-Resume, GTazz-linktree, gzmoraes/Portifolio-AI, CS-Graduation
+          
+          # config_output: png
