@@ -35,7 +35,8 @@ jobs:
 
           commits_authoring: GTazz, gabriel.oliveira.tazz@gmail.com
 
-          config_padding: 0, 55
+          # config_padding: 0, 55
+          config_output: png
 
       - name: Languages metrics
         uses: GTazz/metrics@master
@@ -58,7 +59,8 @@ jobs:
 
           commits_authoring: GTazz, gabriel.oliveira.tazz@gmail.com
 
-          config_padding: 0, 45
+          # config_padding: 0, 45
+          config_output: png
 
       - name: Main repos metrics
         uses: GTazz/metrics@master
@@ -75,4 +77,6 @@ jobs:
           plugin_repositories_featured: >-
             Job-Fit-Resume, GTazz-linktree, gzmoraes/Portifolio-AI, CS-Graduation
 
-          commits_authoring: GTazz, gabriel.oliveira.tazz@gmail.com          
+          commits_authoring: GTazz, gabriel.oliveira.tazz@gmail.com   
+          
+          config_output: png
