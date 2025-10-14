@@ -33,9 +33,7 @@ jobs:
           config_order: >-
             base.header, isocalendar, base.activity+community, base.repositories
 
-          commits_authoring: >- 
-            Gabriel Tazz, GTazz, GTazz@users.noreply.github.com,
-            gabriel.oliveira.tazz@gmail.com, contact@gtazz.dev, gabriel.souza044@cs.cruzeirodosul.edu.br 
+          commits_authoring: GTazz, gabriel.oliveira.tazz@gmail.com
 
           config_padding: 0, 55
 
@@ -51,16 +49,14 @@ jobs:
           plugin_languages_limit: 20
           plugin_languages_indepth: yes
           plugin_languages_sections: most-used, recently-used
-          plugin_languages_recent_load: 1000
+          # plugin_languages_recent_load: 1000
           # plugin_languages_recent_days: 15
           plugin_languages_details: >-
             bytes-size, percentage, lines
           plugin_languages_ignored: >-
             portugol, html, css
 
-          commits_authoring: >- 
-            Gabriel Tazz, GTazz, GTazz@users.noreply.github.com,
-            gabriel.oliveira.tazz@gmail.com, contact@gtazz.dev, gabriel.souza044@cs.cruzeirodosul.edu.br 
+          commits_authoring: GTazz, gabriel.oliveira.tazz@gmail.com
 
           config_padding: 0, 45
 
@@ -79,6 +75,4 @@ jobs:
           plugin_repositories_featured: >-
             Job-Fit-Resume, GTazz-linktree, gzmoraes/Portifolio-AI, CS-Graduation
 
-          commits_authoring: >- 
-            Gabriel Tazz, GTazz, GTazz@users.noreply.github.com,
-            gabriel.oliveira.tazz@gmail.com, contact@gtazz.dev, gabriel.souza044@cs.cruzeirodosul.edu.br             
+          commits_authoring: GTazz, gabriel.oliveira.tazz@gmail.com          
