@@ -9,7 +9,7 @@ on:
     branches: 
       - master 
       - main
-      - rework   
+      - rework3
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
