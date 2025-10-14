@@ -22,7 +22,7 @@ jobs:
         uses: GTazz/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.base.png
+          filename: metrics.base.*
 
           base: header, activity, community, repositories
           base_hireable: yes
@@ -35,15 +35,15 @@ jobs:
 
           commits_authoring: GTazz, gabriel.oliveira.tazz@gmail.com
 
-          # config_padding: 0, 55
-          config_output: png
-          config_display: large
+          config_padding: 0, 55
+          # config_output: png
+          # config_display: large
 
       - name: Languages metrics
         uses: GTazz/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.languages.png
+          filename: metrics.languages.*
 
           base: ""
 
@@ -60,15 +60,15 @@ jobs:
 
           commits_authoring: GTazz, gabriel.oliveira.tazz@gmail.com
 
-          # config_padding: 0, 45
-          config_output: png
-          config_display: large
+          config_padding: 0, 45
+          # config_output: png
+          # config_display: large
 
       - name: Main repos metrics
         uses: GTazz/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.projects.png
+          filename: metrics.projects.*
 
           base: ""
 
@@ -81,5 +81,5 @@ jobs:
 
           commits_authoring: GTazz, gabriel.oliveira.tazz@gmail.com   
           
-          config_output: png
-          config_display: large
+          # config_output: png
+          config_display: columns
