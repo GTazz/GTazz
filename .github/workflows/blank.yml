@@ -28,14 +28,14 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           config_order: >-
-            base.header, isocalendar, base.activity+community
+            base.header, isocalendar, base.activity+community, base.repositories
           config_padding: 0, 55
       - name: Languages metrics
         uses: GTazz/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.languages.svg
-          base: repositories
+          base: ""
           plugin_languages: yes
           plugin_languages_limit: 20
           plugin_languages_indepth: yes
@@ -44,14 +44,14 @@ jobs:
             gabriel.oliveira.tazz@gmail.com, contact@gtazz.dev, gabriel.souza044@cs.cruzeirodosul.edu.br 
           plugin_languages_sections: >-
             most-used, recently-used
-          plugin_languages_recent_load: 400
-          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 150
+          plugin_languages_recent_days: 15
           plugin_languages_details: >-
             bytes-size, percentage, lines
           plugin_languages_ignored: >-
             portugol, html, css
           config_order: >-
-            base.repositories, languages
+            languages.recently-used, languages.most-used
           config_padding: 0, 45
 
       - name: Main repos metrics
