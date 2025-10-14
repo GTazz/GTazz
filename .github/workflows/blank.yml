@@ -22,7 +22,7 @@ jobs:
         uses: GTazz/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.base.svg
+          filename: metrics.base.png
 
           base: header, activity, community, repositories
           base_hireable: yes
@@ -37,12 +37,13 @@ jobs:
 
           # config_padding: 0, 55
           config_output: png
+          config_display: large
 
       - name: Languages metrics
         uses: GTazz/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.languages.svg
+          filename: metrics.languages.png
 
           base: ""
 
@@ -61,12 +62,13 @@ jobs:
 
           # config_padding: 0, 45
           config_output: png
+          config_display: large
 
       - name: Main repos metrics
         uses: GTazz/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.projects.svg
+          filename: metrics.projects.png
 
           base: ""
 
@@ -80,3 +82,4 @@ jobs:
           commits_authoring: GTazz, gabriel.oliveira.tazz@gmail.com   
           
           config_output: png
+          config_display: large

@@ -26,13 +26,13 @@ Check out my main projects: [Click me](#-projects)
 <h2>📊 Metrics</h2>
 
 <picture>
-  <source media="(max-width: 730px)" srcset="metrics.base.svg" alt="GitHub base stats" type="image/svg+xml" width=100%>
-  <img src="metrics.base.svg" alt="GitHub base stats" type="image/svg+xml" align ="top" width=49%>
+  <source media="(max-width: 730px)" srcset="metrics.base.png" alt="GitHub base stats" type="image/png" width=100%>
+  <img src="metrics.base.png" alt="GitHub base stats" type="image/png" align ="top" width=49%>
 </picture>
 
 <picture>
-  <source media="(max-width: 730px)" srcset="metrics.languages.svg" alt="GitHub languages stats" type="image/svg+xml" width=100%>
-  <img src="metrics.languages.svg" alt="GitHub languages stats" type="image/svg+xml" align ="top" width=49%>
+  <source media="(max-width: 730px)" srcset="metrics.languages.png" alt="GitHub languages stats" type="image/png" width=100%>
+  <img src="metrics.languages.png" alt="GitHub languages stats" type="image/png" align ="top" width=49%>
 </picture>
 <h2>✨ Projects</h2>
 <!-- 
@@ -61,5 +61,5 @@ Check out my main projects: [Click me](#-projects)
 <h3>Repositories</h3> -->
 
 <a href="https://github.com/GTazz?tab=repositories&q=&type=&language=&sort=">
-  <img src="metrics.projects.svg" alt="GitHub repos" type="image/svg+xml">
+  <img src="metrics.projects.png" alt="GitHub repos" type="image/png">
 </a>
