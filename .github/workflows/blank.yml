@@ -24,7 +24,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.base.*
 
-          base: header, activity, community, repositories
+          base: header, activity, community
           base_hireable: yes
 
           plugin_isocalendar: yes
@@ -33,7 +33,7 @@ jobs:
           config_order: >-
             base.header, isocalendar, base.activity+community, base.repositories
 
-          config_padding: 0, 85
+          config_padding: 0, 70
 
       - name: Languages metrics
         uses: GTazz/metrics@master
@@ -41,7 +41,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.languages.*
 
-          base: ""
+          base: repositories
 
           plugin_languages: yes
           plugin_languages_limit: 20
@@ -51,7 +51,10 @@ jobs:
           plugin_languages_ignored: >-
             portugol, html, css
 
-          config_padding: 0, 45
+          config_order: >-
+            base.repositories, languages
+
+          config_padding: 0, 70
 
       - name: Main repos metrics desktop
         uses: GTazz/metrics@master
