@@ -33,7 +33,7 @@ jobs:
           config_order: >-
             base.header, isocalendar, base.activity+community, base.repositories
 
-          config_padding: 0, 70
+          config_padding: 0, 80
 
       - name: Languages metrics
         uses: GTazz/metrics@master
@@ -50,11 +50,12 @@ jobs:
             bytes-size, percentage, lines
           plugin_languages_ignored: >-
             portugol, html, css
+          commits_authoring: Gabriel Tazz, GTazz, gabriel.oliveira.tazz@gmail.com
 
           config_order: >-
             base.repositories, languages
 
-          config_padding: 0, 70
+          config_padding: 0, 80
 
       - name: Main repos metrics desktop
         uses: GTazz/metrics@master
