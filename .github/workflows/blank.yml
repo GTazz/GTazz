@@ -9,7 +9,7 @@ on:
     branches: 
       - master 
       - main
-      - rework   
+      - rework3
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -22,36 +22,66 @@ jobs:
         uses: GTazz/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.base.svg
+          filename: metrics.base.*
+
           base: header, activity, community
           base_hireable: yes
+
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
+
           config_order: >-
-            base.header, isocalendar, base.activity+community
-          config_padding: 0, 55
+            base.header, isocalendar, base.activity+community, base.repositories
+
+          config_padding: 0, 80
+
       - name: Languages metrics
         uses: GTazz/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.languages.svg
+          filename: metrics.languages.*
+
           base: repositories
+
           plugin_languages: yes
           plugin_languages_limit: 20
+          plugin_languages_indepth: yes
           plugin_languages_details: >-
-            bytes-size, percentage
+            bytes-size, percentage, lines
           plugin_languages_ignored: >-
             portugol, html, css
-          config_order: >-
-            base.repositories, languages
-          config_padding: 0, 45
+          commits_authoring: Gabriel Tazz, GTazz, gabriel.oliveira.tazz@gmail.com
 
-      - name: Main repos metrics
+          config_order: >-
+             languages, base.repositories
+
+          config_padding: 0, 80
+
+      - name: Main repos metrics desktop
         uses: GTazz/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.projects.svg
+          filename: metrics.projects.desktop.*
+
           base: ""
+
+          plugin_repositories: yes
+          plugin_repositories_affiliations: >-
+            owner, collaborator, organization_member
+          plugin_repositories_order: featured
+          plugin_repositories_featured: >-
+            Job-Fit-Resume, GTazz-linktree, gzmoraes/Portifolio-AI, CS-Graduation
+          
+          config_display: large
+
+      - name: Main repos desktop
+        uses: GTazz/metrics@master
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.projects.mobile.*
+
+          base: ""
+
           plugin_repositories: yes
           plugin_repositories_affiliations: >-
             owner, collaborator, organization_member

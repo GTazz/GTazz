@@ -61,5 +61,8 @@ Check out my main projects: [Click me](#-projects)
 <h3>Repositories</h3> -->
 
 <a href="https://github.com/GTazz?tab=repositories&q=&type=&language=&sort=">
-  <img src="metrics.projects.svg" alt="GitHub repos" type="image/svg+xml">
+  <picture>
+    <source media="(max-width: 730px)" srcset="metrics.projects.mobile.svg" alt="GitHub languages stats" type="image/svg+xml">
+    <img src="metrics.projects.desktop.svg" alt="GitHub languages stats" type="image/svg+xml" align ="top">
+  </picture>
 </a>
