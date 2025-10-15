@@ -53,7 +53,7 @@ jobs:
           commits_authoring: Gabriel Tazz, GTazz, gabriel.oliveira.tazz@gmail.com
 
           config_order: >-
-            base.repositories, languages
+             languages, base.repositories
 
           config_padding: 0, 80
 
