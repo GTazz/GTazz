@@ -3,8 +3,8 @@
 <h2>👨🏻 About me</h2>
 
 Hi, my name is Gabriel and close friends call me Tazz.
-I'm a open source developer and computer scientist student.
-Check out my main projects: [Click me](#-projects)
+I'm an open-source developer and a computer science student.
+Check out my main projects: [Click here](#-projects)
 
 <h3>📚 Education</h3>
 
@@ -22,7 +22,7 @@ Check out my main projects: [Click me](#-projects)
 - LGBTQ+ member and supporter
   - For the freedom of identity in society and workspace
 
-- Loyal for my family, friends and ideals 
+- Loyal to my family, friends and ideals 
 
 <h2>📊 Metrics</h2>
 
