@@ -17,7 +17,7 @@ Check out my main projects: [Click me](#-projects)
   - I believe education and technology should be for everyone
   - Open source contribution should be an obligation for all developers
   - Everything is open source if you know how to code 😉
-  - <a href="https://opensource.org/"><img src="./open-source-icon.png" alt="Open Source Initiative" width="25" height="25" align="top"> Learn about the Open Source Initiative</a>
+  - <a href="https://opensource.org/"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/GTazz/GTazz@main/open-source-icon.png" alt="Open Source Initiative" width="25" height="25" align="top"> Learn about the Open Source Initiative</a>
 
 - LGBTQ+ member and supporter
   - For the freedom of identity in society and workspace
@@ -27,13 +27,13 @@ Check out my main projects: [Click me](#-projects)
 <h2>📊 Metrics</h2>
 
 <picture>
-  <source media="(max-width: 730px)" srcset="metrics.base.svg" alt="GitHub base stats" type="image/svg+xml" width=100%>
-  <img src="metrics.base.svg" alt="GitHub base stats" type="image/svg+xml" align ="top" width=49%>
+  <source loading="lazy" media="(max-width: 730px)" srcset="https://cdn.jsdelivr.net/gh/GTazz/GTazz@main/metrics.base.svg" alt="GitHub base stats" type="image/svg+xml" width=100%>
+  <img loading="lazy" src="https://cdn.jsdelivr.net/gh/GTazz/GTazz@main/metrics.base.svg" alt="GitHub base stats" type="image/svg+xml" align ="top" width=49%>
 </picture>
 
 <picture>
-  <source media="(max-width: 730px)" srcset="metrics.languages.svg" alt="GitHub languages stats" type="image/svg+xml" width=100%>
-  <img src="metrics.languages.svg" alt="GitHub languages stats" type="image/svg+xml" align ="top" width=49%>
+  <source loading="lazy" media="(max-width: 730px)" srcset="https://cdn.jsdelivr.net/gh/GTazz/GTazz@main/metrics.languages.svg" alt="GitHub languages stats" type="image/svg+xml" width=100%>
+  <img loading="lazy" src="https://cdn.jsdelivr.net/gh/GTazz/GTazz@main/metrics.languages.svg" alt="GitHub languages stats" type="image/svg+xml" align ="top" width=49%>
 </picture>
 <h2>✨ Projects</h2>
 <!-- 
@@ -63,7 +63,7 @@ Check out my main projects: [Click me](#-projects)
 
 <a href="https://github.com/GTazz?tab=repositories&q=&type=&language=&sort=">
   <picture>
-    <source media="(max-width: 730px)" srcset="metrics.projects.mobile.svg" alt="GitHub languages stats" type="image/svg+xml">
-    <img src="metrics.projects.desktop.svg" alt="GitHub languages stats" type="image/svg+xml" align ="top">
+    <source loading="lazy" media="(max-width: 730px)" srcset="https://cdn.jsdelivr.net/gh/GTazz/GTazz@main/metrics.projects.mobile.svg" alt="GitHub languages stats" type="image/svg+xml">
+    <img loading="lazy" src="https://cdn.jsdelivr.net/gh/GTazz/GTazz@main/metrics.projects.desktop.svg" alt="GitHub languages stats" type="image/svg+xml" align ="top">
   </picture>
 </a>
