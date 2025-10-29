@@ -17,7 +17,7 @@ Check out my main projects: [Click here](#-projects)
   - I believe education and technology should be for everyone
   - Open source contribution should be an obligation for all developers
   - Everything is open source if you know how to code 😉
-  - <a href="https://opensource.org/"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/GTazz/GTazz@latest/open-source-icon.png" alt="Open Source Initiative" width="25" height="25" align="top"> Learn about the Open Source Initiative</a>
+  - <a href="https://opensource.org/"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/GTazz/GTazz@latest/open-source-icon.png" alt="Open Source Initiative" width="25" height="25" align="top">Learn about the Open Source Initiative</a>
 
 - LGBTQ+ member and supporter
   - For the freedom of identity in society and workspace
