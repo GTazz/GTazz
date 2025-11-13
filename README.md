@@ -1,6 +1,6 @@
 <h1>Welcome to my GitHub profile! 👍</h1>
 
-<h2>👨🏻 About me</h2>
+<h2>👤 About me</h2>
 
 Hi, my name is Gabriel and close friends call me Tazz.
 I'm an open-source developer and a computer science student.
