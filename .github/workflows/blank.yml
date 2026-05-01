@@ -1,8 +1,8 @@
 name: Metrics
 on:
-  # Schedule each 2 days updates
+  # Schedule each 4 days updates
   schedule:
-    - cron: "0 0 */2 * *"
+    - cron: "0 0 */4 * *"
   # (optional) Run workflow manually
   workflow_dispatch:
   # (optional) Run workflow when pushing
